@@ -1,0 +1,129 @@
+<!doctype html>
+<html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viajes Esetag</title>
+    <!--Css-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="menu-icons open">
+                    <i class="icon ion-md-menu"></i>
+                </div>
+
+                <ul class="nav-list">
+                    <div class="menu-icons close">
+                        <i class="icon ion-md-close"></i>
+                    </div>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link current">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Viaja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacta</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="main-message">
+                    <h3>Descubre diferentes sitios de todo España</h3>
+                    <h1>Reserva con nosotros vuelos y hoteles</h1>
+                    <p>
+                        Descubre la Gastronomia de pais , desde la ex las islas balearas , esta las
+                        preciosas costas de mallorca
+                    </p>
+                    <div class="cta">
+                        <a href="#" class="btn">Reserva ja</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="viajes">
+            <div class="container">
+                <div class="title-heading">
+                    <h3>Explora</h3>
+                    <h1>Algunos de nuestros viajes mas Pedidas</h1>
+                </div>
+
+                <div class="grid">
+                    <!--Item viajes-->
+                    <div class="grid-item Canarias">
+                        <i class="icon ion-md-star"></i>
+                        <h1>Canarias</h1>
+                        <p>Canarias</p>
+                    </div>
+                    <!--Item viajes-->
+                    <div class="grid-item Mallorca">
+                        <i class="icon ion-md-compass"></i>
+                        <h1>Mallorca</h1>
+                        <p>Mallorca</p>
+                    </div>
+                    <!--Item viajes-->
+                    <div class="grid-item Galicia">
+                        <i class="icon ion-md-bonfire"></i>
+                        <h1>Galicia</h1>
+                        <p>Galicia</p>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </section>
+
+            <!--Fondo de vuelo-->
+        <section class="testimonials">
+            <div class="container">
+                <div class="testimonial">
+                   <div id="form-result">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-grid">
+            <div class="container">
+                <section class="contact" id="contact">
+                    <h1 class="title">Contactano: </h1>
+                        <div class="contact-info-wrapper">
+                            <form action="" class="contact-form">
+                                <input class="input" id="name" type="text" placeholder="name" required />
+                                <input class="input" id="email" type="email" placeholder="email" />
+                                <input class="input" id="assuntos" type="text" placeholder="Donde quieres ir" required />
+                                <textarea rows="7" id="message" placeholder="text" required></textarea>
+                                <input type="submit"class="btn btn-blue" onclick="act()" type="Enviar"/>
+                                <input type="submit"class="btn btn-filtrar" onclick="f()" name="filtrar" type="Filtrar"/>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Balart. Alex Carrasco Balart Codenotch</p>
+    </footer>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
